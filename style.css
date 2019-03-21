@@ -1,0 +1,204 @@
+
+
+html,
+body {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  top: 0;
+    background: #e0ebe8;
+  background-image: url("https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover; 
+  min-height: 55vh;
+ padding-top: 45vh;
+  /*   line-height: 100vh; */
+  /*   width:100%;
+  height:96vh;
+border:solid; */
+}
+
+#introduction {
+  font-size: 3vw;
+}
+
+.intro p {
+  color: white;
+  padding-top: 10px;
+  font-size: 2vw;
+}
+
+nav ul {
+  text-align: right;
+  font-size: 2vw;
+  position: fixed;
+  width: 100%;
+  background-color: #FFE3CD;
+  border: 2px solid lightblue;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #FF760D;
+}
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+  font-size: 1.5vw;
+ 
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: darkblue;
+  font-weight: normal;
+  
+}
+
+.project {
+  text-decoration: none;
+  color: darkblue;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+  
+ 
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+  
+}
+
+.project-title:hover {
+  color: #FF760D;
+  
+}
+
+.show-all {
+  display:flex;/*CSS3*/
+  align-items:center;/*Vertical align*/
+  justify-content:center;/*horizontal align*/
+  
+  text-decoration: none;
+  /*display: block;*/
+  width: 200px;
+  height: 40px;
+  margin: 20px auto 90px;
+  padding-bottom: 10px;
+  background: #FFE3CD;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 1.8vw;
+  border: 2px solid lightblue;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-top:10px;
+  
+}
+
+
+.show-all:hover {
+  background: white;
+  color: #FF760D;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .project {
+    margin: 40px 0;
+  }
+}
+
+.contact {
+  /*   height:800px; */
+  /*   min-height:800px; */
+  background: #C8F7C5;
+  padding-bottom: 160px;
+  font-size: 1.5vw;
+   background-image: url("https://images.pexels.com/photos/631342/pexels-photo-631342.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover; 
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background: rgba(255,255,255,0.3);
+  color: darkblue;
+  text-decoration: none;
+}
+
+.contact-details:hover {
+  background: rgba(255,255,255,0.5);
+  color: #FF760D;
+}
+
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+@media only screen and (max-width: 367px) {
+  /*    #contact{
+    min-height:1100px;
+  } */
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+  
+
+}
